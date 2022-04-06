@@ -1,0 +1,4 @@
+[submodule "Plugins/OpenUnrealUtilities"]
+	path = Plugins/OpenUnrealUtilities
+	url = https://github.com/JonasReich/OpenUnrealUtilities.git
+	branch = develop
