@@ -2,14 +2,18 @@
 	"FileVersion": 3,
 	"EngineAssociation": "5.0",
 	"Category": "",
-	"Description": "",
+	"Description": "Sample project to facilitate Open Unreal Utilities plugin development",
+	"Modules": [
+		{
+			"Name": "SampleProject",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
 	"Plugins": [
 		{
-			"Name": "ModelingToolsEditorMode",
-			"Enabled": true,
-			"TargetAllowList": [
-				"Editor"
-			]
+			"Name": "OpenUnrealUtilities",
+			"Enabled": true
 		}
 	]
 }
