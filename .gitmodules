@@ -2,3 +2,6 @@
 	path = Plugins/OpenUnrealUtilities
 	url = https://github.com/JonasReich/OpenUnrealUtilities.git
 	branch = develop
+[submodule "OpenUnrealAutomationTools"]
+	path = OpenUnrealAutomationTools
+	url = https://github.com/JonasReich/OpenUnrealAutomationTools.git
