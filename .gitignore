@@ -5,3 +5,5 @@ Saved/
 *.sln
 .idea/
 Plugins/Developer/RiderLink/
+HoloLens/
+FileOpenOrder/
