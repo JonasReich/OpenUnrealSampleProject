@@ -1,6 +1,6 @@
 # Open Unreal Utilities Sample Project
 
-This is a sample project for the [Open Unreal Utilities](https://github.com/JonasReich/OpenUnrealUtilities) plugin for Unreal Engine and the Open [Unreal Automation Tools](https://github.com/JonasReich/OpenUnrealAutomationTools).
+This is a sample project for the [Open Unreal Utilities](https://github.com/JonasReich/OpenUnrealUtilities) plugin for Unreal Engine and the [Open Unreal Automation Tools](https://github.com/JonasReich/OpenUnrealAutomationTools).
 
 The plugin and automation tools are both embedded as subrepos.
 
