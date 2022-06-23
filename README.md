@@ -1,11 +1,10 @@
 # Open Unreal Utilities Sample Project
 
-This is a sample project for the Open Unreal Utilities plugin for Unreal Engine 4.
-Please check the [plugin folder itself](Plugins/OpenUnrealUtilities) for a more detailed documentation of the plugin itself.
-The plugin source code is [hosted separately on github](https://github.com/JonasReich/OpenUnrealUtilities). 
+This is a sample project for the [Open Unreal Utilities](https://github.com/JonasReich/OpenUnrealUtilities) plugin for Unreal Engine and the Open [Unreal Automation Tools](https://github.com/JonasReich/OpenUnrealAutomationTools).
 
-This repository just acts as a tool for making extensions to the Open Unreal Utilities plugin and has no real benefit to anyone
-just looking to use the plugin in a different project.
+The [plugin](Plugins/OpenUnrealUtilities) and [automation tools](OpenUnrealAutomationTools) are both embedded as subrepos.
 
-The plugin as well as OpenUnrealAutomationTools are embedded as git submodules with references to the respective latest development branch.
-This means the subrepos are not locked to a specific revision, but always the latest HEAD.
+This repository just acts as a for hosting and modifying both projects in a unified environment and help me during development to make sure the tools remain compatible. To anyone else they at least show how to embedd them in a lightweight project :)
+
+The repo history was completely re-written in June 2022, because I swapped out the embedded 'subrepos' with the more commonly use 'submodules'
+because I found it far easier to work with them, considering they have better tooling support (esp. GitHub & SourceTree).
