@@ -2,7 +2,7 @@
 
 This is a sample project for the [Open Unreal Utilities](https://github.com/JonasReich/OpenUnrealUtilities) plugin for Unreal Engine and the Open [Unreal Automation Tools](https://github.com/JonasReich/OpenUnrealAutomationTools).
 
-The [plugin](Plugins/OpenUnrealUtilities) and [automation tools](OpenUnrealAutomationTools) are both embedded as subrepos.
+The plugin and automation tools are both embedded as subrepos.
 
 This repository just acts as a for hosting and modifying both projects in a unified environment and help me during development to make sure the tools remain compatible. To anyone else they at least show how to embedd them in a lightweight project :)
 
