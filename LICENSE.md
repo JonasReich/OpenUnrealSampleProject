@@ -1,7 +1,9 @@
 
-The Open Unreal Utilities Sample Project is licensed under the MIT license, same as the Open Unreal Utilities plugin itself, which is contained within.
-You are free to distribute the plugin separately from this sample project while keeping and adhering with the contained license.
-[See plugin LICENSE](SampleProject/Plugins/OpenUnrealUtilities/LICENSE.md).
+The Open Unreal Sample Project is licensed under the MIT license, same as the embedded Open Unreal projects.
+
+You are free to distribute the embedded plugins/tools separately from this sample project while keeping and adhering with the respective license:
+- [See OpenUnrealUtilities LICENSE](https://github.com/JonasReich/OpenUnrealUtilities/blob/master/LICENSE.md)
+- [See OpenUnrealAutomationTools LICENSE](https://github.com/JonasReich/OpenUnrealAutomationTools/blob/master/LICENSE.md)
 
 ----
 
