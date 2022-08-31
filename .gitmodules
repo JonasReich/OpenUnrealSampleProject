@@ -5,3 +5,6 @@
 [submodule "OpenUnrealAutomationTools"]
 	path = OpenUnrealAutomationTools
 	url = https://github.com/JonasReich/OpenUnrealAutomationTools.git
+[submodule "Plugins/OUUCodingStandard"]
+	path = Plugins/OUUCodingStandard
+	url = https://github.com/JonasReich/OpenUnrealCodingStandard.git
