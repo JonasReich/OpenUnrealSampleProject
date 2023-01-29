@@ -1,4 +1,5 @@
 .vs
+.vsconfig
 Binaries/
 Intermediate/
 Saved/
