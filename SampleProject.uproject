@@ -1,19 +1,19 @@
 {
-	"FileVersion": 3,
-	"EngineAssociation": "5.0",
-	"Category": "",
-	"Description": "Sample project to facilitate Open Unreal Utilities plugin development",
-	"Modules": [
-		{
-			"Name": "SampleProject",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		}
-	],
-	"Plugins": [
-		{
-			"Name": "OpenUnrealUtilities",
-			"Enabled": true
-		}
-	]
+  "FileVersion": 3,
+  "EngineAssociation": "5.1",
+  "Category": "",
+  "Description": "Sample project to facilitate Open Unreal Utilities plugin development",
+  "Modules": [
+    {
+      "Name": "SampleProject",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "OpenUnrealUtilities",
+      "Enabled": true
+    }
+  ]
 }
