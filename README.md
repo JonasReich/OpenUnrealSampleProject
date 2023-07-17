@@ -1,4 +1,6 @@
-# Open Unreal Utilities Sample Project
+# Open Unreal Sample Project
+
+![Open Unreal Sample Project Logo](Resources/ous_wide.png)
 
 This is a sample / integration project for all the Open Unreal ... plugins and tools:
 
