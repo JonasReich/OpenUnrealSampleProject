@@ -8,6 +8,7 @@ Saved/
 Plugins/Developer/RiderLink/
 HoloLens/
 FileOpenOrder/
+CookedData/
 
 # Ignore opencppcoverage log file (which I did not find out how to disable yet)
 LastCoverageResults.log
