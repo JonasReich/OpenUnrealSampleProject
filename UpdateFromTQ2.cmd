@@ -6,16 +6,16 @@ REM - current user is Jonas Reich
 REM - commandline has authenticated access to TQ2 Perforce repo
 REM - checkin messages should be manually groomed with interactive rebase after the import
 
-SET "GIT_BRANCH=p4/tq2-code"
-SET "GIT_BRANCH_BACKUP=%GIT_BRANCH%-backup"
 
 PUSHD %~dp0
 
-CALL :UPDATE_SUBMODULE Plugins\OpenUnrealUtilities
-REM if this failed (e.g. because connection to p4 failed), we should not try again with Json Asset lib
+CALL :UPDATE_SUBMODULE Plugins\OpenUnrealUtilities p4/tq2-code
 IF %ERRORLEVEL%==1 ( EXIT /B 1 )
 
-CALL :UPDATE_SUBMODULE Plugins\OUUJsonDataAssets
+CALL :UPDATE_SUBMODULE Plugins\OUUJsonDataAssets p4/tq2-code
+IF %ERRORLEVEL%==1 ( EXIT /B 1 )
+
+CALL :UPDATE_SUBMODULE OpenUnrealAutomationTools p4/tq2-main
 
 EXIT /B %ERRORLEVEL%
 
@@ -23,6 +23,9 @@ EXIT /B %ERRORLEVEL%
 :UPDATE_SUBMODULE
 REM change working directory to first param of subroutine
 PUSHD %~dp0%1
+
+SET "GIT_BRANCH=%2"
+SET "GIT_BRANCH_BACKUP=%GIT_BRANCH%-backup"
 
 git config --replace-all user.name "Jonas Reich"
 REM all updates originating from TQ2 should be signed by my Grimlore work mail
