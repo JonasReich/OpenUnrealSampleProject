@@ -38,7 +38,8 @@ git p4j %GIT_BRANCH%
 SET P4J_STATUS=%ERRORLEVEL%
 
 git checkout %GIT_BRANCH%
-git rebase -f %GIT_BRANCH_BACKUP%
+:: Do NOT rebase to sign commits anymore. This messes too much with auto-created merge commits and we usually have to do an interactive rebase to adjust imported messages anyways.
+:: git rebase -f %GIT_BRANCH_BACKUP%
 git branch --delete %GIT_BRANCH_BACKUP%
 
 POPD
