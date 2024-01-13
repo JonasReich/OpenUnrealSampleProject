@@ -1,16 +1,19 @@
 [submodule "Plugins/OpenUnrealUtilities"]
 	path = Plugins/OpenUnrealUtilities
 	url = https://github.com/JonasReich/OpenUnrealUtilities.git
-	branch = develop
+	branch = ue5.2
 [submodule "OpenUnrealAutomationTools"]
 	path = OpenUnrealAutomationTools
 	url = https://github.com/JonasReich/OpenUnrealAutomationTools.git
+	branch = master
 [submodule "Plugins/OUUJsonDataAssets"]
 	path = Plugins/OUUJsonDataAssets
 	url = https://github.com/JonasReich/OUUJsonDataAssets.git
+	branch = master
 [submodule "Plugins/OUUCodingStandard"]
 	path = Plugins/OUUCodingStandard
 	url = https://github.com/JonasReich/OpenUnrealCodingStandard.git
+	branch = master
 [submodule "Plugins/Developer/VisualStudioTools"]
 	path = Plugins/Developer/VisualStudioTools
 	url = https://github.com/microsoft/vc-ue-extensions.git
