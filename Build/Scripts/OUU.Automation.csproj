@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="OUU.Automation.csproj.props"/>
+  <PropertyGroup>
+    <TargetFramework>netcoreapp6.0</TargetFramework>
+    <OutputType>Library</OutputType>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+    <Configurations>Debug;Release;Development</Configurations>
+    <RootNamespace>OUU.Automation</RootNamespace>
+    <AssemblyName>OUU.Automation</AssemblyName>
+    <OutputPath>..\..\Binaries\DotNET\AutomationTool\AutomationScripts\OUU</OutputPath>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningsNotAsErrors>612,618</WarningsNotAsErrors>
+    <DebugType>pdbonly</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference
+      Include="$(EngineDir)\Source\Programs\AutomationTool\AutomationUtils\AutomationUtils.Automation.csproj" />
+    <ProjectReference
+      Include="$(EngineDir)\Source\Programs\AutomationTool\CrowdinLocalization\CrowdinLocalization.Automation.csproj" />
+    <ProjectReference
+      Include="$(EngineDir)\Source\Programs\AutomationTool\Localization\Localization.Automation.csproj" />
+    <ProjectReference
+      Include="$(EngineDir)\Source\Programs\AutomationTool\OneSkyLocalization\OneSkyLocalization.Automation.csproj" />
+    <ProjectReference
+      Include="$(EngineDir)\Source\Programs\AutomationTool\XLocLocalization\XLocLocalization.Automation.csproj" />
+    <ProjectReference
+      Include="$(EngineDir)\Source\Programs\Shared\EpicGames.Core\EpicGames.Core.csproj"
+      PrivateAssets="All">
+      <Private>false</Private>
+    </ProjectReference>
+    <ProjectReference
+      Include="$(EngineDir)\Source\Programs\AutomationTool\Gauntlet\Gauntlet.Automation.csproj"
+      PrivateAssets="All">
+      <Private>false</Private>
+    </ProjectReference>
+    <ProjectReference
+      Include="$(EngineDir)\Source\Programs\UnrealBuildTool\UnrealBuildTool.csproj" />
+  </ItemGroup>
+</Project>
