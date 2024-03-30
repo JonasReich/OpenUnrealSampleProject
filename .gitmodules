@@ -14,6 +14,3 @@
 	path = Plugins/OUUCodingStandard
 	url = https://github.com/JonasReich/OpenUnrealCodingStandard.git
 	branch = master
-[submodule "Plugins/Developer/VisualStudioTools"]
-	path = Plugins/Developer/VisualStudioTools
-	url = https://github.com/microsoft/vc-ue-extensions.git
