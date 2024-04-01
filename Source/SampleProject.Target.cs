@@ -9,7 +9,7 @@ public class SampleProjectTarget : TargetRules
 	{
 		Type = TargetType.Game;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
-		DefaultBuildSettings = BuildSettingsVersion.V2;
+		DefaultBuildSettings = BuildSettingsVersion.Latest;
 		ExtraModuleNames.AddRange( new string[] { "SampleProject" } );
 	}
 }
