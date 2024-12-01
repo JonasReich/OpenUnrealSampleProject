@@ -16,3 +16,7 @@ Build/**/obj/
 
 # Ignore opencppcoverage log file (which I did not find out how to disable yet)
 LastCoverageResults.log
+
+Content/Localization/**/*.po
+Content/Localization/**/*.locres
+Content/Localization/**/*.archive
