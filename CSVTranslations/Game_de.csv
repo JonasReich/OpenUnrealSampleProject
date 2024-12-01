@@ -1,0 +1,8 @@
+"Namespace","Key","SourceString","LocalizedString"
+"","0D4E9B1B4D51A4DDA947789138431159","Set culture en","Setze Sprache en"
+"","1B83AF9B4439407B38AF95B2F38DFA73","Set culture fr","Setze Sprache fr"
+"","581C431C40FBDAD5B47D539B645DC3C4","This is a localized text gathered from a widget blueprint","Das ist ein lokalisierter Text, der aus einem Widget Blueprint gesammelt wurde"
+"","619C7FC846D25CDC66D809B6CBD1177F","Set culture de","Setze Sprache de"
+"","C5CD00DF4E008CEB93922D8855762BD0","Load CSV files","CSV Dateien Laden"
+"st_csv_localization_sample","SampleText","This is a localized text gathered from a string table","Das ist ein übersetzter Text aus einer Text Liste"
+"st_csv_localization_sample","SampleText2","This is a newly added sample text to test addition of new strings. Also, we can test string changes.","Das ist ein neuer Beispieltext, um das Hinzufügen von neuen Texten zu testen. Außerdem können wir Änderungen an existierenden Strings testen."

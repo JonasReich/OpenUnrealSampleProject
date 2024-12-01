@@ -1,7 +1,0 @@
-Namespace,Key,SourceString,LocalizedString
-,35638902462E6B35EBD8269B6C0BA0AC,"Load German translations from CSV","Charger des traductions allemandes à partir d'un fichier CSV"
-,581C431C40FBDAD5B47D539B645DC3C4,"This is a localized text gathered from a widget blueprint","Voici un texte localisé, collecté à partir d'un widget Blueprint"
-,0D4E9B1B4D51A4DDA947789138431159,"Set culture en","Ensemble culturel en"
-,619C7FC846D25CDC66D809B6CBD1177F,"Set culture de","Ensemble culturel de"
-,1B83AF9B4439407B38AF95B2F38DFA73,"Set culture fr","Ensemble culturel fr"
-st_csv_localization_sample,SampleText,"This is a localized text gathered from a string table","Il s'agit d'un texte localisé provenant d'un tableau de chaînes de caractères."
