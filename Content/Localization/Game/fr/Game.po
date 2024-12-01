@@ -1,4 +1,4 @@
-﻿# Game English translation.
+﻿# Game French translation.
 # Copyright (c) 2022 Jonas Reich
 # 
 msgid ""
@@ -7,51 +7,51 @@ msgstr ""
 "POT-Creation-Date: 2024-10-03 02:49\n"
 "PO-Revision-Date: 2024-10-03 02:49\n"
 "Language-Team: \n"
-"Language: en\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. Key:	0D4E9B1B4D51A4DDA947789138431159
 #. SourceLocation:	/Game/CSVLocalization/wbp_csv_localization_sample.wbp_csv_localization_sample_C:WidgetTree.Button_culture_en.Text
 #: /Game/CSVLocalization/wbp_csv_localization_sample.wbp_csv_localization_sample_C:WidgetTree.Button_culture_en.Text
 msgctxt ",0D4E9B1B4D51A4DDA947789138431159"
 msgid "Set culture en"
-msgstr "Set culture en"
+msgstr ""
 
 #. Key:	1B83AF9B4439407B38AF95B2F38DFA73
 #. SourceLocation:	/Game/CSVLocalization/wbp_csv_localization_sample.wbp_csv_localization_sample_C:WidgetTree.Button_culture_fr.Text
 #: /Game/CSVLocalization/wbp_csv_localization_sample.wbp_csv_localization_sample_C:WidgetTree.Button_culture_fr.Text
 msgctxt ",1B83AF9B4439407B38AF95B2F38DFA73"
 msgid "Set culture fr"
-msgstr "Set culture fr"
+msgstr ""
 
 #. Key:	581C431C40FBDAD5B47D539B645DC3C4
 #. SourceLocation:	/Game/CSVLocalization/wbp_csv_localization_sample.wbp_csv_localization_sample_C:WidgetTree.TextBlock_37.Text
 #: /Game/CSVLocalization/wbp_csv_localization_sample.wbp_csv_localization_sample_C:WidgetTree.TextBlock_37.Text
 msgctxt ",581C431C40FBDAD5B47D539B645DC3C4"
 msgid "This is a localized text gathered from a widget blueprint"
-msgstr "This is a localized text gathered from a widget blueprint"
+msgstr ""
 
 #. Key:	619C7FC846D25CDC66D809B6CBD1177F
 #. SourceLocation:	/Game/CSVLocalization/wbp_csv_localization_sample.wbp_csv_localization_sample_C:WidgetTree.Button_culture_de.Text
 #: /Game/CSVLocalization/wbp_csv_localization_sample.wbp_csv_localization_sample_C:WidgetTree.Button_culture_de.Text
 msgctxt ",619C7FC846D25CDC66D809B6CBD1177F"
 msgid "Set culture de"
-msgstr "Set culture de"
+msgstr ""
 
 #. Key:	C5CD00DF4E008CEB93922D8855762BD0
 #. SourceLocation:	/Game/CSVLocalization/wbp_csv_localization_sample.wbp_csv_localization_sample_C:WidgetTree.Button_load.Text
 #: /Game/CSVLocalization/wbp_csv_localization_sample.wbp_csv_localization_sample_C:WidgetTree.Button_load.Text
 msgctxt ",C5CD00DF4E008CEB93922D8855762BD0"
 msgid "Load CSV files"
-msgstr "Load CSV files"
+msgstr ""
 
 #. Key:	SampleText
 #. SourceLocation:	/Game/CSVLocalization/st_csv_localization_sample.st_csv_localization_sample
 #: /Game/CSVLocalization/st_csv_localization_sample.st_csv_localization_sample
 msgctxt "st_csv_localization_sample,SampleText"
 msgid "This is a localized text gathered from a string table"
-msgstr "This is a localized text gathered from a string table"
+msgstr ""
 
