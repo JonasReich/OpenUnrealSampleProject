@@ -14,3 +14,7 @@
 	path = Plugins/OUUCodingStandard
 	url = https://github.com/JonasReich/OpenUnrealCodingStandard.git
 	branch = master
+[submodule "Plugins/OUUTags"]
+	path = Plugins/OUUTags
+	url = https://github.com/JonasReich/OUUTags.git
+	branch = main
