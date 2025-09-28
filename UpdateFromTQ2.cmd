@@ -37,23 +37,28 @@ PUSHD %~dp0%REPO_RELATIVE_PATH%
 
 REM weird bash stuff: get name of the repo directory
 for %%F in ("%REPO_RELATIVE_PATH%") do set "REPO_NAME=%%~nxF"
-ECHO REPO_NAME = %REPO_NAME%
 
 git config --replace-all user.name "Jonas Reich"
 REM all updates originating from TQ2 should be signed by my Grimlore work mail
 git config --replace-all user.email jreich@grimloregames.com
 
+ECHO Creating branch backups...
 git checkout %GIT_BRANCH%
-git checkout -b %GIT_BRANCH_BACKUP%
+git checkout -b %GIT_BRANCH_BACKUP% -f
+if not %ERRORLEVEL%==0 (
+    EXIT /B 1
+)
+git checkout %GIT_BRANCH%
 
-ECHO git p4j %GIT_BRANCH% --repo-name %REPO_NAME%
-git p4j %GIT_BRANCH% --repo-name %REPO_NAME%
+set "P4J_COMMAND=git p4j %GIT_BRANCH% --repo-name %REPO_NAME% --build-bot-keywords buildcat --sign"
+ECHO %P4J_COMMAND%
+%P4J_COMMAND%
 SET P4J_STATUS=%ERRORLEVEL%
 
-git checkout %GIT_BRANCH%
-:: Do NOT rebase to sign commits anymore. This messes too much with auto-created merge commits and we usually have to do an interactive rebase to adjust imported messages anyways.
-:: git rebase -f %GIT_BRANCH_BACKUP%
-git branch --delete %GIT_BRANCH_BACKUP%
+if %P4J_STATUS%==0 (
+    :: Only delete the backup if the p4j command was successful
+    git branch --delete %GIT_BRANCH_BACKUP%
+)
 
 POPD
 
