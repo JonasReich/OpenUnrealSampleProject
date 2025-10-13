@@ -46,7 +46,7 @@ ECHO Creating branch backups...
 git checkout %GIT_BRANCH%
 git checkout -b %GIT_BRANCH_BACKUP% -f
 if not %ERRORLEVEL%==0 (
-    EXIT /B 1
+    git reset --hard %GIT_BRANCH_BACKUP%
 )
 git checkout %GIT_BRANCH%
 
