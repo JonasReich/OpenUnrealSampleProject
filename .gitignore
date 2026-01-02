@@ -3,6 +3,7 @@
 ArchivedBuilds/
 Binaries/
 Intermediate/
+DerivedDataCache/
 Saved/
 *.sln
 *.csproj.props
