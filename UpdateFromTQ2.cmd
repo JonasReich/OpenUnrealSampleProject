@@ -42,8 +42,12 @@ git config --replace-all user.name "Jonas Reich"
 REM all updates originating from TQ2 should be signed by my Grimlore work mail
 git config --replace-all user.email jreich@grimloregames.com
 
-ECHO Creating branch backups...
+ECHO Making sure local repo is up-to-date...
 git checkout %GIT_BRANCH%
+git pull
+git fetch --all
+
+ECHO Creating branch backups...
 git checkout -b %GIT_BRANCH_BACKUP% -f
 if not %ERRORLEVEL%==0 (
     git reset --hard %GIT_BRANCH_BACKUP%
