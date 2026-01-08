@@ -16,6 +16,18 @@
 			"Enabled": true
 		},
 		{
+			"Name": "OUUBlueprintValidation",
+			"Enabled": true
+		},
+		{
+			"Name": "OUUCodingStandard",
+			"Enabled": true
+		},
+		{
+			"Name": "OUUJsonDataAssets",
+			"Enabled": true
+		},
+		{
 			"Name": "OUUTags",
 			"Enabled": true
 		}
