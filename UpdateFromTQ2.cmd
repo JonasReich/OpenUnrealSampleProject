@@ -15,6 +15,9 @@ IF %ERRORLEVEL%==1 ( EXIT /B 1 )
 CALL :UPDATE_SUBMODULE Plugins\OUUJsonDataAssets p4/tq2-code
 IF %ERRORLEVEL%==1 ( EXIT /B 1 )
 
+CALL :UPDATE_SUBMODULE Plugins\OUUBlueprintValidation p4/tq2-code
+IF %ERRORLEVEL%==1 ( EXIT /B 1 )
+
 CALL :UPDATE_SUBMODULE Plugins\OUUTags p4/tq2-code
 IF %ERRORLEVEL%==1 ( EXIT /B 1 )
 
