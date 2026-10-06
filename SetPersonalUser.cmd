@@ -11,6 +11,7 @@ SET USER_MAIL=mail@jonasreich.de
 CALL :UPDATE_SUBMODULE Plugins\OpenUnrealUtilities
 CALL :UPDATE_SUBMODULE Plugins\OUUJsonDataAssets
 CALL :UPDATE_SUBMODULE Plugins\OUUTags
+CALL :UPDATE_SUBMODULE Plugins\OUUBlueprintValidation
 CALL :UPDATE_SUBMODULE OpenUnrealAutomationTools
 
 EXIT /B %ERRORLEVEL%
